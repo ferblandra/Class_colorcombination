@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+	}
+
+/*---------------------------My code after this -----------------------------------------------------*/
+
+
+body{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 98%;
+	line-height: 1.5em;
+	}
+
+#Wrapper{
+	width: 98%;
+	overflow: hidden;
+	margin: 0 auto;
+	min-height: 100%;
+		}
+	
+.header{
+	 background-color: #501214;
+}
+
+p{
+	line-height: 1.5 em;
+	
+	}
+
+h1 {
+	position: relative;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	/* [disabled]padding-bottom: 78px; */
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #FDF9F9;
+	font-size: 3em;
+	font-weight: 400;
+}
+
+h2 {
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #FDF9F9;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+
+h3 {
+	padding: 1rem;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #FDF9F9;
+	
+}
+
+	li{
+		font-weight:100;
+		}
+
+content{
+	width: 100%;
+}
+.column {float: left; padding: 0 1rem 2rem 1rem;}
+.column.third {
+	float:right;
+	width: 33.3%;
+	}
+
+.colors{
+	/*background-color: blue;*/
+	height: auto;
+	width: 88.888888888%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+	}
+	
+	.description {
+			list-style: none;
+   			 font-weight: 700;
+   			 font-size: 110%;
+			 }
+	
+	.excalibur{ /*Texas State Maroon*/
+	color: #FFFFFF;
+    position: relative;
+	background-color:#501214;
+	padding: 25px 30px;
+    margin: 0;
+	
+			}
+	
+	.curtana{ /*Texas State Gold*/
+	color: #FFFFFF;
+    position: relative;
+	background-color:#6A5638;
+	padding: 25px 30px;
+    margin: 0;
+	
+			}
+			
+			
+		
+	.glamdring{ /*blue links*/
+	    position: relative;
+		padding: 25px 30px;
+   		margin: 0;
+	    		}
+		
+	.glamdring a{
+		color: #005481;
+		text-decoration: underline;
+		
+		}
+		
+		.glamdring a:hover {
+			background: #E8E3DB;
+			}	
+
+
+		.sting{ /*red links*/
+		 position: relative;
+		padding: 25px 30px;
+   		margin: 0;
+	
+		}
+		
+		.sting a{
+		color: #501214;
+		text-decoration: underline;
+		
+		}
+		
+		.sting a:hover {
+			background: #E8E3DB;
+			}	
+		
+		.knightfall{ /*Gallery or Carousel possible color combinations*/
+			color: black;
+    		position: relative;
+			padding: 25px 30px;
+    		margin: 0;
+	
+			}
+		
+		/*.slider_image_link{
+			opacity: 1; display: block; 
+			text-decoration: none !important; 
+			transition: all 0.2s ease-in-out; 
+			-webkit-transition: all 0.2s ease-in-out; 
+			-moz-transition: all 0.2s ease-in-out; 
+			-o-transition: all 0.2s ease-in-out;
+			
+			padding: 25px 30px;
+   			margin: 0;
+			
+			}*/
+		
+			.lightbringer{/*caption_color_1 class used in Michael's template*/
+			color: #FFFFFF;
+   			 position: relative;
+			background-color:#363534;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+			}
+				
+			
+				
+			
+			
+		.hearteater{
+			color: #FFFFFF;
+   			 position: relative;
+			background-color:#005481;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+			}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.anduril{ /*Used on the footer*/
+	color: #FFFFFF;
+    position: relative;
+	background-color:#6A5638;
+	padding: 25px 30px;
+    margin: 0;
+	/*--color of links hover effect
+	    color: #501214;
+    	text-decoration: none;
+	-*/
+			}
+
+/*------------------------------------------------------Medium query--------------------------*/
+
+ @media screen and (min-width: 300px){
+	 
+	 
+	 
+		
+		h1{
+			font-size: 2em;
+			}
+ }
