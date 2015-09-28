@@ -198,6 +198,9 @@ content{
     		position: relative;
 			padding: 25px 30px;
     		margin: 0;
+			background-image: url(images/slide-pic.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
 	
 			}
 		
@@ -215,19 +218,20 @@ content{
 			}*/
 		
 			.lightbringer{/*caption_color_1 class used in Michael's template*/
-			color: #FFFFFF;
-   			 position: relative;
-			background-color:#363534;
-			padding: 25px 30px;
-   			margin: 0;
-			width: 80%;
+				opacity: 0.9;
+				filter: alpha(opacity=90); /* For IE8 and earlier */
+				color: #FFFFFF;
+				position: relative;
+				background-color: #363534;
+				padding: 25px 30px;
+				margin: 0;
+				width: 80%;
 			}
 				
-			
 				
-			
-			
 		.hearteater{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
 			color: #FFFFFF;
    			 position: relative;
 			background-color:#005481;
@@ -236,11 +240,76 @@ content{
 			width: 80%;
 			}
 		
+		.needle{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
+			color: #FFFFFF;
+   			position: relative;
+			background-color:#501214;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+		}
+		
+		.oathkeeper{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
+			color: #FFFFFF;
+   			position: relative;
+			background-color:#6A5638;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+		}
+		.longclaw{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
+			color: #222222;
+   			position: relative;
+			background-color:#DEB407;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+		}
+		
+		.ice{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
+			color: #222222;
+   			position: relative;
+			background-color:#8BAEA1;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+		}
+		
+		.nightfall{
+			opacity: 0.9;
+			filter: alpha(opacity=90); /* For IE8 and earlier */
+			color: #222222;
+   			position: relative;
+			background-color:#D1C7B7;
+			padding: 25px 30px;
+   			margin: 0;
+			width: 80%;
+		}
 		
 		
+		.batleth{
+		font-size: .9rem;
+		background: #E8E3DB;
+		background: -moz-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), color-stop(100%, #D1C7B7));
+		background: -webkit-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%);
+		background: -o-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%);
+		background: -ms-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%);
+		background: linear-gradient(to bottom, #E8E3DB 0%, #D1C7B7 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E3DB', endColorstr='#D1C7B7', GradientType=0 );
 		
-		
-		
+		padding: 25px 30px;
+   			margin: 0;
+			
+		}
 		
 		
 		
